@@ -588,3 +588,28 @@ img {
   pointer-events: none;
   visibility: hidden;
 }
+.subscribe p{
+  margin-bottom : 16px;
+  font-weight : 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  
+}
+.subscribe-form{
+  display: flex;
+  gap: 24px;
+}
+.sub-form-input{
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--title-color);
+  background: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--title-color);
+}
