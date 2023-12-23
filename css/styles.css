@@ -581,8 +581,29 @@ img {
   transform: translate(-50%, -50%) scale(1);
   min-height: 584px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding :72px 24px 24px 24px;
 }
-
+.modal-par{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--nav-color);
+  margin-bottom: 16px;
+}
+.form-content{
+  margin-bottom: 8px;
+}
+.form-label{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--icon-color);
+  display: block;
+  margin-bottom: 4px;
+  
+}
 .is-hidden {
   opacity: 0;
   pointer-events: none;
