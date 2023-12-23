@@ -588,6 +588,9 @@ img {
   pointer-events: none;
   visibility: hidden;
 }
+.subscribe {
+  margin-left: 80px;
+}
 .subscribe p {
   margin-bottom: 16px;
   font-weight: 500;
@@ -635,4 +638,5 @@ img {
 }
 .sub-btn-svg {
   margin-left: 16px;
+  margin-right: 0;
 }
