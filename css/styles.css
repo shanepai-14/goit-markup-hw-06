@@ -588,20 +588,19 @@ img {
   pointer-events: none;
   visibility: hidden;
 }
-.subscribe p{
-  margin-bottom : 16px;
-  font-weight : 500;
+.subscribe p {
+  margin-bottom: 16px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  
 }
-.subscribe-form{
+.subscribe-form {
   display: flex;
   gap: 24px;
 }
-.sub-form-input{
+.sub-form-input {
   width: 264px;
   height: 40px;
   border: 1px solid var(--title-color);
@@ -612,4 +611,28 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--title-color);
+  letter-spacing: 0.04em;
+}
+.sub-form-input::placeholder {
+  color: var(--title-color);
+}
+.sub-form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--title-color);
+  cursor: pointer;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 4px;
+}
+.sub-btn-svg {
+  margin-left: 16px;
 }
