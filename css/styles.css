@@ -629,7 +629,8 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus .form-svg {
+
+.form-input:focus + .form-svg {
   fill: var(--btn-color);
 }
 .form-textarea {
@@ -646,6 +647,9 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-textarea:focus {
+  border-color: var(--btn-color);
 }
 .user-privacy-span {
   width: 16px;
